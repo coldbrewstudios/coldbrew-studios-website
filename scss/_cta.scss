@@ -1,0 +1,54 @@
+// 
+// cta.scss
+// 
+
+.cta-slider{
+    .client-single{
+        img{
+            opacity: 0.5;
+            transition: all 0.2s ease-in;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+.feature
+{
+    .icons {
+        height: 80px;
+        line-height: 76px;
+        background: linear-gradient(
+    45deg
+    , transparent, rgba(43, 147, 245, 0.1));
+    }
+} 
+
+.custom-form .alert {
+    padding: 11px;
+    font-size: 15px;
+}
+.alert-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.contact-form{
+    margin-bottom: 15px;
+    box-shadow: none !important;
+    height: 48px;
+    padding-left: 20px;
+    border: 1px solid #efefef;
+    font-size: 15px;
+    border-radius: 5px;
+}

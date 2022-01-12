@@ -1,0 +1,36 @@
+// 
+// team.scss
+// 
+
+
+.team-box {
+  border: 2px solid #2ea9bd33;
+
+  .team-img {
+    img {
+      position: relative;
+      top: -30px;
+      left: -30px;
+    }
+  }
+}
+
+.team-social {
+  li {
+    i {
+      font-size: 20px;
+      color: $muted;
+      margin-right: 5px;
+      transition: all .3s ease;
+    }
+  }
+}
+
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .team-img img {
+    top: 0 !important;
+    left: 0 !important;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "coldbrew-studios-website",
+  "version": "1.0.0",
+  "description": "Main CBS website",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./scss/style.scss:./css/style.css ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldbrewstudios/coldbrew-studios-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldbrewstudios/coldbrew-studios-website/issues"
+  },
+  "homepage": "https://github.com/coldbrewstudios/coldbrew-studios-website#readme"
+}

@@ -77,29 +77,6 @@ counter.forEach(counter_value => {
 
 
 
-// Cta-slider
-var slider = tns({
-    container: '.cta-slider',
-    loop: true,
-    autoplay: true,
-    nav: false,
-    controlsPosition: 'bottom',
-    controls: false,
-    autoplayButtonOutput: false,
-    mouseDrag: true,
-    responsive: {
-        1024: {
-            gutter: 20,
-            items: 4
-        },
-        768: {
-            gutter: 20,
-            items: 2
-        }
-    }
-});
-
-
 // typed
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
